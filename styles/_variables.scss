@@ -12,6 +12,7 @@ $color-owk: #2cfa2f;
 $color-cyan: #4f8bae;
 $color-white: #d1d1d1;
 $color-light: #6a8e97;
+
 //Radius
 $border-radius-size: 30px;
 
@@ -19,13 +20,14 @@ $border-radius-size: 30px;
 $base: 0.4rem;
 
 //Size Desktop
-$sizeHeadline1Desktop: $base * 8.6;
-$sizeHeadline2Desktop: $base * 6.25;
-$sizeHeadline3Desktop: $base * 4.7;
-$sizeHeadline4Desktop: $base * 3.3;
-$sizeButtonTextDesktop: $base * 3.3;
-$sizeBodyDesktop: $base * 2.8;
-$sizeLogoDesktop: $base * 15;
+$sizeHeadline1Desktop: $base * 8.75; //52px
+$sizeHeadline2Desktop: $base * 7.5; //48px
+$sizeHeadline3Desktop: $base * 6.25; //40px
+$sizeHeadline4Desktop: $base * 5; //32px
+$sizeLogoDesktop: $base * 3.75; //24px
+$sizeBodyDesktop: $base * 2.5; //16px
+$sizeBodyDesktop2: $base * 1.25; //8px
+$sizeButtonTextDesktop: $base * 3.125; //20
 
 //Font Family
 $fontTitle: "Merriweather", serif;
