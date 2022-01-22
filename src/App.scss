@@ -1,5 +1,14 @@
+@import "../styles/variables.scss";
+
 .App {
   text-align: center;
+}
+
+.App h1 {
+  font-size: $sizeHeadline1Desktop;
+}
+p {
+  font-size: $sizeHeadline1Desktop;
 }
 
 .App-logo {

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Raleway:wght@300;400;700;900&display=swap");
+
+//Radius
+$border-radius-size: 30px;
+
+// Size
+$base: 0.4rem;
+
+//Size Desktop
+$sizeHeadline1Desktop: $base * 8.6;
+$sizeHeadline2Desktop: $base * 6.25;
+$sizeHeadline3Desktop: $base * 4.7;
+$sizeHeadline4Desktop: $base * 3.3;
+$sizeButtonTextDesktop: $base * 3.3;
+$sizeBodyDesktop: $base * 2.8;
+$sizeLogoDesktop: $base * 15;
+
+//Font Family
+$fontTitle: "Merriweather", serif;
+$fontSecondary: "Raleway", sans-serif;

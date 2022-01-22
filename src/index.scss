@@ -1,0 +1,11 @@
+@import "../styles/_variables.scss";
+
+body {
+  margin: 0;
+  font-family: $fontSecondary;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
