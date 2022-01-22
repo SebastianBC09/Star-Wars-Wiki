@@ -1,0 +1,30 @@
+@import "../styles/variables.scss";
+
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: $color-white;
+  font-family: $fontTitle;
+}
+
+.Navbar-title--container {
+  font-size: $sizeLogoDesktop;
+  color: $color-light;
+
+  & h1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.Navbar-icon--container {
+  font-size: $sizeLogoDesktop;
+  color: $color-light;
+
+  & h2 {
+    margin: 0;
+    padding: 0;
+  }
+}
