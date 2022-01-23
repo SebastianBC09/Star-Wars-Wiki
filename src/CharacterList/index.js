@@ -6,7 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-function CharacterCard(props) {
+function CharacterList(props) {
   const { data } = props;
   return (
     <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 4 }}>
@@ -34,5 +34,5 @@ function CharacterCard(props) {
   )
 }
 
-export { CharacterCard };
+export { CharacterList };
 

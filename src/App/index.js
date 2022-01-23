@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react'
 import Stack from '@mui/material/Stack';
 import CircularProgress from '@mui/material/CircularProgress';
-import { Navbar } from './Navbar';
-import { CharacterCard } from './CharacterCard';
+import { Navbar } from '../Navbar';
+import { ViewCharacterList } from '../ViewCharacterList';
 import './App.scss';
-import { CharacterList } from './CharacterList';
 
 function App() {
   const [people, setPeople] = React.useState([]);
@@ -29,8 +28,7 @@ function App() {
           <CircularProgress color="inherit" />
         </Stack>
       ) : (
-        // <CharacterCard data={people} />
-        <CharacterList data={people} />
+        <ViewCharacterList data={people} />
       )}
     </section>
   );
