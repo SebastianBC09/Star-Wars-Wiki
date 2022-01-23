@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-constructed-context-values */
 import React from 'react';
 
-const Context = React.useContext();
+const Context = React.createContext();
 
 function Provider(props) {
   const [people, setPeople] = React.useState([]);
@@ -32,4 +32,4 @@ function Provider(props) {
     </Context.Provider>)
 };
 
-export { Provider }
+export { Context, Provider }
