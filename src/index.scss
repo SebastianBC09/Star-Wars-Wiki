@@ -3,9 +3,12 @@
 body {
   margin: 0;
   padding: 0;
-  background: #eb5757;
-  background: linear-gradient(to left, #000000, #490b0b);
-  background: -webkit-linear-gradient(to right, #000000, #eb5757);
+  background: rgb(73, 11, 11);
+  background: radial-gradient(
+    circle,
+    rgba(73, 11, 11, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   font-family: $fontSecondary;
   color: $color-white;
 }
