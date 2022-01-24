@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/star-wars-wiki/static/css/main.4680fb1f.css",
-    "main.js": "/star-wars-wiki/static/js/main.704e00db.js",
-    "index.html": "/star-wars-wiki/index.html",
-    "main.4680fb1f.css.map": "/star-wars-wiki/static/css/main.4680fb1f.css.map",
-    "main.704e00db.js.map": "/star-wars-wiki/static/js/main.704e00db.js.map"
+    "main.css": "/Star-Wars-Wiki/static/css/main.4680fb1f.css",
+    "main.js": "/Star-Wars-Wiki/static/js/main.704e00db.js",
+    "index.html": "/Star-Wars-Wiki/index.html",
+    "main.4680fb1f.css.map": "/Star-Wars-Wiki/static/css/main.4680fb1f.css.map",
+    "main.704e00db.js.map": "/Star-Wars-Wiki/static/js/main.704e00db.js.map"
   },
   "entrypoints": [
     "static/css/main.4680fb1f.css",
