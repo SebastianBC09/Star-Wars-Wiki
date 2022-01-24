@@ -6,7 +6,6 @@ const Context = React.createContext();
 function Provider(props) {
   const [people, setPeople] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
-  const [openModal, setOpenModal] = React.useState(false);
   const { children } = props;
 
   React.useEffect(() => {
@@ -25,11 +24,10 @@ function Provider(props) {
       setPeople,
       loading,
       setLoading,
-      openModal,
-      setOpenModal
     }}>
       {children}
-    </Context.Provider>)
+    </Context.Provider>
+  )
 };
 
 export { Context, Provider }
